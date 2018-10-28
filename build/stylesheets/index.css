@@ -1,0 +1,655 @@
+/*************************** START SITTINGS ************************/
+header {
+  margin: 6.5rem 0;
+}
+
+/*************************** START SITTINGS ************************/
+button,
+.btn,
+.btn-large,
+.btn-small,
+.btn-callopse,
+.btn-white,
+.btn-sucsses,
+.btn-primary,
+a.btn {
+  background-color: #dde2d4;
+  border-radius: 3px;
+  border: 0;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  transition: all 0.2s;
+}
+button:hover,
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover,
+.btn-callopse:hover,
+.btn-white:hover,
+.btn-sucsses:hover,
+.btn-primary:hover,
+a.btn:hover {
+  background-color: #333;
+  color: #dde2d4;
+}
+button:active,
+.btn:active,
+.btn-large:active,
+.btn-small:active,
+.btn-callopse:active,
+.btn-white:active,
+.btn-sucsses:active,
+.btn-primary:active,
+a.btn:active {
+  background-color: #4d4d4d;
+}
+button:focus,
+.btn:focus,
+.btn-large:focus,
+.btn-small:focus,
+.btn-callopse:focus,
+.btn-white:focus,
+.btn-sucsses:focus,
+.btn-primary:focus,
+a.btn:focus {
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #0f82bd;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: white;
+  color: #0f82bd;
+}
+
+.btn-sucsses {
+  background-color: #22ac00;
+  color: white;
+}
+.btn-sucsses:hover {
+  background-color: white;
+  color: #22ac00;
+}
+
+.btn-white {
+  color: #333;
+  background: transparent;
+  border-bottom: 1px solid #333;
+  padding: 0.3rem 0.5rem;
+  transition: all 0.2s;
+  border-radius: 0;
+}
+.btn-white:hover {
+  color: #ccc;
+  background: #333;
+}
+
+.btn-callopse {
+  background-color: #22ac00;
+  color: white;
+  border-radius: 30%;
+  border: 0;
+  padding: 0.4em 0.7em;
+}
+.btn-callopse:hover {
+  background-color: white;
+  color: #22ac00;
+}
+
+.btn-small {
+  font-size: 0.75em;
+}
+
+.btn-large {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/*************************** START SITTINGS ************************/
+[class^=alert-] {
+  border: 1px solid;
+  border-bottom-width: 3px;
+  margin: 1.5rem 0;
+  padding: 1.5em;
+}
+[class^=alert-] p {
+  margin-bottom: 0;
+}
+
+.alert-information {
+  border-color: #bddcee;
+  background-color: white;
+}
+.alert-information:first-child {
+  color: #439ccf;
+}
+
+.alert-error {
+  border-color: #f6a79f;
+  background-color: #fffcfc;
+}
+.alert-error:first-child {
+  color: #e72915;
+}
+
+.alert-warning {
+  border-color: #ffa76d;
+  background-color: #ffe5d3;
+}
+.alert-warning:first-child {
+  color: #d35400;
+}
+
+.alert-success {
+  border-color: #bedf91;
+  background-color: #edf6e0;
+}
+.alert-success:first-child {
+  color: #74a730;
+}
+
+/*************************** START of FLEX-BOX ***************************/
+.flex-p {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+}
+.flex-p--dc {
+  flex-direction: column;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.flex-p--dc > * {
+  margin-left: 0;
+  margin-right: 0;
+}
+.flex-p--dc > :first-child {
+  margin-top: 1.5rem;
+}
+.flex-p--dc > * {
+  margin-bottom: 0.5rem;
+}
+.flex-p--ja {
+  justify-content: space-around;
+}
+.flex-p--jb {
+  justify-content: space-between;
+}
+.flex-p--je {
+  justify-content: flex-end;
+}
+.flex-p--jc {
+  justify-content: center;
+}
+.flex-p > *:not(:first-child) {
+  margin-left: 1.5rem;
+}
+
+.flex__i-g--1 {
+  flex-grow: 1;
+}
+
+.flex__i-g--2 {
+  flex-grow: 2;
+}
+
+.flex__i-g--3 {
+  flex-grow: 3;
+}
+
+.flex__i-g--4 {
+  flex-grow: 4;
+}
+
+.flex__i-g--5 {
+  flex-grow: 5;
+}
+
+.flex__i-g--6 {
+  flex-grow: 6;
+}
+
+.flex__i-g--7 {
+  flex-grow: 7;
+}
+
+.flex__i-g--8 {
+  flex-grow: 8;
+}
+
+.flex__i-g--9 {
+  flex-grow: 9;
+}
+
+.flex__i-g--10 {
+  flex-grow: 10;
+}
+
+.flex__i-g--11 {
+  flex-grow: 11;
+}
+
+.flex__i-g--12 {
+  flex-grow: 12;
+}
+
+.flex__i--i {
+  flex: initial;
+}
+.flex__i--a {
+  flex: auto;
+}
+.flex__i--n {
+  flex: none;
+}
+.flex__i--ih {
+  flex: inherit;
+}
+.flex__i--as {
+  align-self: flex-start;
+}
+.flex__i--ae {
+  align-self: flex-end;
+}
+.flex__i--ast {
+  align-self: stretch;
+}
+.flex__i--ac {
+  align-self: center;
+}
+.flex__i--ab {
+  align-self: baseline;
+}
+
+@media (max-width: 1024px) {
+  .flex-p > *:not(:first-child) {
+    margin-left: 0.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .flex-p {
+    flex-direction: column;
+  }
+  .flex-p > *:not(:first-child) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flex-p > * {
+    margin-bottom: 0.5rem;
+  }
+  .flex-p > :first-child {
+    margin-top: 1.5rem;
+  }
+}
+/*************************** END of FLEX-BOX ***************************/
+/*************************** START SITTINGS ************************/
+form .field-group {
+  margin-bottom: 1em;
+}
+form .field-group label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+form .field-group input:not([class^=btn]),
+form .field-group textarea {
+  border: 1px solid #8f8f8f;
+  padding: 0.75em;
+}
+form .field-group input:not([class^=btn]):focus, form .field-group input:not([class^=btn]):hover,
+form .field-group textarea:focus,
+form .field-group textarea:hover {
+  border-color: dimgray;
+  outline: none;
+}
+form .field-group input:not([class^=btn]).field-fw,
+form .field-group textarea.field-fw {
+  width: 95%;
+}
+form .field-group .help {
+  margin: 0.5em 0 0;
+  color: gray;
+  font-style: italic;
+}
+form .field-group.field-error label,
+form .field-group.field-error .help,
+form .field-group.field-error input {
+  color: red;
+  border-color: #ffcccc;
+}
+form .required {
+  color: red;
+}
+form fieldset {
+  border-color: #8f8f8f;
+  padding: 1.5em;
+  margin-bottom: 1.5rem;
+}
+form fieldset legend {
+  font-weight: bold;
+  padding: 0 0.5em;
+}
+
+/* Main Container. */
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* The Columns. */
+[class^=col-] {
+  padding: 0 1.5rem;
+}
+
+/* The Row. */
+.row {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Column Widths. */
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/* Special Classes. */
+.col-third {
+  width: 33.3333333333%;
+}
+
+.col-two-thirds {
+  width: 66.6666666667%;
+}
+
+.col-half {
+  width: 50%;
+}
+
+.col-quarter {
+  width: 25%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Behaviour. */
+@media (max-width: 1024px) {
+  [class^=col-] {
+    padding: 0 0.75rem;
+  }
+
+  .row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+  }
+}
+@media (max-width: 768px) {
+  [class^=col-] {
+    width: 100%;
+  }
+}
+/*************************** START SITTINGS ************************/
+[class^=icon-] {
+  height: 3em;
+  padding: 0.25em;
+  margin-bottom: 1.5rem;
+  width: 3em;
+  text-align: center;
+}
+[class^=icon-] i {
+  line-height: 2.5em;
+}
+
+.icon-circle {
+  border-radius: 100%;
+}
+
+.icon-rounded {
+  border-radius: 3px;
+}
+
+.icon-large {
+  font-size: 150%;
+}
+
+.icon-huge {
+  font-size: 250%;
+}
+
+/*************************** START SITTINGS ************************/
+nav {
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  line-height: 1.2rem;
+  position: fixed;
+  z-index: 999;
+  background-color: #333;
+  padding: 0.5rem;
+  border-bottom: 4px solid #0f82bd;
+  color: #f0f0f0;
+}
+nav .nav-brand {
+  margin-right: auto;
+  margin-left: 0.5rem;
+  text-decoration: none;
+  width: 60px;
+  height: auto;
+}
+nav .flex-p {
+  margin-right: auto;
+  margin-left: auto;
+}
+nav a:not(:first-child),
+nav a:visited {
+  color: #f0f0f0;
+  text-decoration: none;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #ebebeb;
+  padding: 0.6rem 0.5rem;
+  transition: all 0.2s;
+}
+nav a:not(:first-child):hover,
+nav a:visited:hover {
+  color: #333;
+  background-color: #ebebeb;
+}
+
+@media (max-width: 768px) {
+  nav .flex-p .nav-brand {
+    margin: 0 auto;
+    width: 100px;
+    align-self: center;
+  }
+}
+/*************************** START SITTINGS ************************/
+html {
+  font-size: 1em;
+}
+
+html,
+button,
+input,
+textarea {
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  color: #333;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+a, a:visited {
+  color: #0f82bd;
+}
+a:hover, a:visited:hover {
+  color: #333;
+}
+
+hr {
+  border: 0;
+  background-color: #ccc;
+  height: 1px;
+  margin: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.5rem 0 0.5em;
+  line-height: 1.2;
+}
+
+h5, h6 {
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 3.998em;
+}
+
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.707em;
+}
+
+ul,
+ol {
+  margin: 0 0 1.5rem 1.5rem;
+}
+
+blockquote {
+  color: gray;
+  font-style: italic;
+  margin-left: 1.5rem;
+}
+blockquote footer {
+  font-style: normal;
+}
+
+body {
+  box-sizing: content-box;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.cycle-slideshow {
+  position: relative;
+}
+.cycle-slideshow .cycle-prev,
+.cycle-slideshow .cycle-next {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  height: 3em;
+  margin-top: -1.5em;
+  position: absolute;
+  width: 3em;
+  z-index: 1000;
+  top: 50%;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 3em;
+  cursor: pointer;
+}
+.cycle-slideshow .cycle-prev:hover,
+.cycle-slideshow .cycle-next:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.cycle-slideshow .cycle-next {
+  right: 0;
+}
+.cycle-slideshow .cycle-prev {
+  left: 0;
+}
+.cycle-slideshow .cycle-caption {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+/*# sourceMappingURL=index.css.map */
