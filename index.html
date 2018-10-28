@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="build/animation.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="build/stylesheets/index.css" />
+    <link rel="stylesheet" href="build/stylesheets/main.css">
+
+    <!-- <script src="main.js"></script> -->
+</head>
+
+<body>
+    <!-- Start Nav Bar-->
+    <nav>
+        <div class="flex-p">
+            <a href="#" class="flex-i nav-brand "><img src="img/atom-logo.png" alt="img" class="nav-brand__img tossing"></a>
+            <button class="btn-callopse "><i class="fa fa-bars fa-2x"></i></button>
+            <div class="callopse"></div>
+            <a href="#home" class="flex-i btn-white--nav">Home</a>
+            <a href="#feature" class="flex-i btn-white--nav">Feature</a>
+            <a href="#conect" class="flex-i btn-white--nav">Conect Us</a>
+            <a href="#about" class="flex-i btn-white--nav">About Us</a>
+        </div>
+    </nav>
+    <!-- End Nav Bar-->
+    <header></header>
+    <!-- Start Flex-Box -->
+    <div class="container">
+        <h1>Flex-Box</h1>
+        <ol class="flex-p">
+            <li class="flex__i">flex-i-1-12345</li>
+            <li class="flex__i">flex-i-2-12345</li>
+            <li class="flex__i">flex-i-3-12345</li>
+            <li class="flex__i">flex-i-4-12345</li>
+            <li class="flex__i">flex-i-5-12345</li>
+        </ol>
+        <ol class="flex-p--dc flex-p--jc">
+            <li class="flex__i flex__i--i flex__i--ae ">flex-i-1-12345</li>
+            <li class="flex__i flex__i--a flex__i--as">flex-i-2-12345</li>
+            <li class="flex__i flex__i--n flex__i--ac">flex-i-3-12345</li>
+            <li class="flex__i flex__i--ih flex__i--ast">flex-i-4-12345</li>
+            <li class="flex__i flex__i--i flex__i--ab">flex-i-5-12345</li>
+            <li class="flex__i flex__i--i flex__i--ac ">flex-i-6-12345</li>
+        </ol>
+    </div>
+
+
+
+    <!-- Typography -->
+    <section>
+        <div class="container">
+            <h1 id="nav-typography">Typography</h1>
+
+            <hr>
+
+            <div class="flex-p">
+                <div class="flex__i flex__i-g--3 flex__i--ast col-half">
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </div> <!-- end col-half -->
+
+                <div class="flex__i flex__i-g--1 flex__i--ast col-half">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quo nihil architecto, qui modi
+                        at,
+                        accusantium optio laudantium consequuntur delectus facere non alias natus perspiciatis esse
+                        officiis eum hic nam tenetur enim ratione reiciendis eos quam. <a href="">Facere minima porro,
+                            modi
+                            assumenda</a> est inventore.</p>
+
+                    <p>Eaque tempore nam, quam ipsa ducimus dolores quibusdam sint! Voluptate nobis nesciunt aspernatur
+                        <strong>alias expedita</strong> excepturi culpa atque dicta corrupti <em>sed vitae deleniti</em>
+                        labore nam cum, maiores dolorum amet sint veritatis, facilis iure dignissimos officia. Magni
+                        facilis amet blanditiis, laborum <strike>consectetur corrupti quia odit</strike> nobis minima
+                        maxime natus, quibusdam veritatis nostrum aut voluptates possimus vero ab! Fugiat.</p>
+
+                    <pre class="line-numbers"><code class="language-css">.row:after {
+        content: "";
+    
+        display: table;
+        clear: both;
+    }</code></pre>
+                </div> <!-- end col-half -->
+            </div> <!-- end row -->
+
+            <div class="flex-p">
+                <div class="flex__i flex__i-g--1">
+                    <h4>Unordered list</h4>
+
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                        <li>Item 5</li>
+                    </ul>
+                </div> <!-- end col-half -->
+                <div class="flex__i flex__i-g--1">
+                    <h4>Ordered list</h4>
+
+                    <ol>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                        <li>Item 5</li>
+                    </ol>
+                </div> <!-- end col-half -->
+            </div> <!-- end row -->
+
+            <hr>
+
+            <blockquote>
+                This is a blockquote.
+                <footer><a href="">This is the author.</a></footer>
+            </blockquote>
+        </div> <!-- end container -->
+    </section>
+
+
+    <!-- Buttons -->
+    <section>
+        <div class="container">
+            <h1 id="nav-buttons">Buttons</h1>
+
+            <hr>
+
+            <div class="flex-p">
+                <div class="col-4">
+                    <h4>Button styles</h4>
+
+                    <p>
+                        <button class="btn">Default style</button>
+                        <button class="btn-primary">Primary style</button>
+                    </p>
+                </div> <!-- end col-4 -->
+
+                <div class="col-4">
+                    <h4>Button sizes</h4>
+
+                    <p><button class="btn-small">Small size</button></p>
+                    <p><button class="btn">Default size</button></p>
+                    <p><button class="btn-large">Large size</button></p>
+                    <p><button class="btn-callopse"><i class="fa fa-bars fa-4x"></i></button></p>
+                </div> <!-- end col-4 -->
+
+                <div class="col-4">
+                    <h4>HTML elements</h4>
+
+                    <p><button class="btn btn-sucsses">Button</button></p>
+                    <p><a href="" class="btn">Anchor tag</a></p>
+                    <p><input type="submit" class="btn-sucsses" value="Submit input"></p>
+                    <p><input type="button" class="btn-white" value="Button input"></p>
+                </div> <!-- end col-4 -->
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+
+
+
+    <!-- Forms -->
+    <section>
+        <div class="container">
+            <h1 id="nav-forms">Forms</h1>
+
+            <hr>
+
+            <form action="">
+                <div class="flex-p">
+                    <div class="col-half">
+                        <fieldset>
+                            <legend>Inputs</legend>
+
+                            <div class="field-group">
+                                <label for="demo-input-1">This is a label</label>
+                                <input type="text" id="demo-input-1" placeholder="This is a text input">
+
+                                <p class="help">This is a contextual help for the field above.</p>
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group field-error">
+                                <label for="demo-input-2">Error field</label>
+                                <input type="text" id="demo-input-2" placeholder="This is a text input">
+
+                                <p class="help">This is an error message for the field above.</p>
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group">
+                                <label for="demo-textarea">This is a label</label>
+                                <textarea name="demo-textarea" id="demo-textarea" cols="30" rows="10" placeholder="This is a textarea"></textarea>
+                            </div> <!-- end field-group -->
+                        </fieldset>
+                    </div> <!-- end row-half -->
+
+                    <div class="col-half">
+                        <fieldset>
+                            <legend>Radio buttons and checkboxes</legend>
+
+                            <div class="field-group">
+                                <input type="radio" name="demo-radio" id="demo-radio-1">
+                                <label for="demo-radio-1">Radio 1</label>
+
+                                <input type="radio" name="demo-radio" id="demo-radio-2">
+                                <label for="demo-radio-2">Radio 2</label>
+
+                                <input type="radio" name="demo-radio" id="demo-radio-3">
+                                <label for="demo-radio-3">Radio 3</label>
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group">
+                                <input type="checkbox" id="demo-checkbox" name="demo-checkbox">
+                                <label for="demo-checkbox">This is a checkbox</label>
+                            </div> <!-- end field-group -->
+                        </fieldset>
+                    </div> <!-- end row-half -->
+                </div> <!-- end row -->
+            </form>
+
+            <div class="flex-p">
+                <div class="col-4">
+                    <form action="">
+                        <fieldset>
+                            <legend>Sign-in Form</legend>
+
+                            <div class="field-group">
+                                <label for="sign-in-username">Username: <span class="required">*</span></label>
+                                <input type="text" id="sign-in-username" name="sign-in-username">
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group">
+                                <label for="sign-in-pwd">Password: <span class="required">*</span></label>
+                                <input type="password" id="sign-in-pwd" name="sign-in-pwd">
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group">
+                                <input type="checkbox" id="sign-in-checkbox" name="sign-in-checkbox" />
+                                <label for="sign-in-checkbox">Remember me</label>
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group">
+                                <input type="submit" class="btn" value="Sign In">
+                            </div> <!-- end field-group -->
+
+                            <p><em><span class="required">*</span> required fields</em></p>
+                        </fieldset>
+                    </form>
+                </div> <!-- end col-4 -->
+
+                <div class="col-4">
+                    <form action="">
+                        <fieldset>
+                            <legend>Sign-up Form</legend>
+
+                            <div class="field-group">
+                                <label for="sign-up-email">Email address: <span class="required">*</span></label>
+                                <input type="email" id="sign-up-email" name="sign-up-email">
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group">
+                                <label for="sign-up-name">Username: <span class="required">*</span></label>
+                                <input type="text" id="sign-up-username" name="sign-up-username">
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group">
+                                <label for="sign-up-pwd">Password: <span class="required">*</span></label>
+                                <input type="password" id="sign-up-pwd" name="sign-up-pwd">
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group">
+                                <label for="sign-up-confirm-pwd">Confirm Password: <span class="required">*</span></label>
+                                <input type="password" id="sign-up-confirm-pwd" name="sign-up-confirm-pwd">
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group">
+                                <input type="submit" class="btn" value="Sign Up">
+                            </div> <!-- end field-group -->
+
+                            <p><em><span class="required">*</span> required fields</em></p>
+                        </fieldset>
+                    </form>
+                </div> <!-- end col-4 -->
+
+                <div class="col-4">
+                    <form action="">
+                        <fieldset>
+                            <legend>Contact Form</legend>
+
+                            <div class="field-group">
+                                <label for="contact-name">Name: <span class="required">*</span></label>
+                                <input type="text" id="contact-name" name="contact-name">
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group">
+                                <label for="contact-email">Email address: <span class="required">*</span></label>
+                                <input type="email" id="contact-email" name="contact-email">
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group">
+                                <label for="contact-website">Website:</label>
+                                <input type="url" id="contact-website" name="contact-website">
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group">
+                                <label for="contact-textarea">Message: <span class="required">*</span></label>
+                                <textarea name="contact-textarea" id="contact-textarea" cols="30" rows="10" class="field-fw"></textarea>
+                            </div> <!-- end field-group -->
+
+                            <div class="field-group">
+                                <input type="submit" class="btn" value="Send Message">
+                            </div> <!-- end field-group -->
+
+                            <p><em><span class="required">*</span> required fields</em></p>
+                        </fieldset>
+                    </form>
+                </div> <!-- end col-4 -->
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+
+    <!-- End Forms -->
+
+    <!-- Icons -->
+    <section>
+        <div class="container">
+            <h1 id="nav-icons">Icons</h1>
+
+            <hr>
+
+            <i class="fa fa-coffee fa-3x"></i>
+
+            <div class="flex-p">
+                <div class="col-half">
+                    <h4>Bordered icons</h4>
+
+                    <div class="icon-circle">
+                        <i class="fa fa-coffee"></i>
+                    </div> <!-- end icon-circle -->
+
+                    <p>Circle</p>
+
+                    <div class="icon-rounded">
+                        <i class="fa fa-coffee"></i>
+                    </div> <!-- end icon-rounded -->
+
+                    <p>Rounded</p>
+
+                    <div class="icon-square">
+                        <i class="fa fa-coffee"></i>
+                    </div> <!-- end icon-square -->
+
+                    <p>Square</p>
+                </div> <!-- end col-half -->
+
+                <div class="col-half">
+                    <h4>Icon sizes</h4>
+
+                    <div class="icon-circle">
+                        <i class="fa fa-coffee"></i>
+                    </div> <!-- end icon-circle -->
+
+                    <p>Default</p>
+
+                    <div class="icon-circle icon-large">
+                        <i class="fa fa-coffee"></i>
+                    </div> <!-- end icon-circle -->
+
+                    <p>Large</p>
+
+                    <div class="icon-circle icon-huge">
+                        <i class="fa fa-coffee"></i>
+                    </div> <!-- end icon-circle -->
+
+                    <p>Huge</p>
+                </div> <!-- end col-half -->
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+
+
+    <!-- Feedback -->
+    <section>
+        <div class="container">
+            <h1 id="nav-feedback">Feedback</h1>
+
+            <hr>
+
+            <div class="flex-p">
+                <div class="col-half">
+                    <div class="alert-information">
+                        <p><strong>Information</strong></p>
+                        <p>This is the body of the message!</p>
+                    </div> <!-- end alert -->
+
+                    <div class="alert-error">
+                        <p><strong>Error</strong></p>
+                        <p>This is the body of the message!</p>
+                    </div> <!-- end alert -->
+                </div> <!-- end col-half -->
+
+                <div class="col-half">
+                    <div class="alert-warning">
+                        <p><strong>Warning</strong></p>
+                        <p>This is the body of the message!</p>
+                    </div> <!-- end alert -->
+
+                    <div class="alert-success">
+                        <p><strong>Success</strong></p>
+                        <p>This is the body of the message!</p>
+                    </div> <!-- end alert -->
+                </div> <!-- end col-half -->
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end feedback-->
+    <!-- Carousels -->
+    <div class="section">
+        <div class="container">
+            <h1 id="nav-carousels">Carousels</h1>
+
+            <hr>
+
+            <div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="3000"
+                data-cycle-caption-template="Slide no. {{slideNum}} of {{slideCount}} - {{cycleTitle}}">
+                <div class="cycle-caption"></div>
+
+                <div class="cycle-prev"><i class="fa fa-chevron-left"></i></div>
+                <div class="cycle-next"><i class="fa fa-chevron-right"></i></div>
+
+                <img src="images/demo/img-1.jpg" alt="Slider image 1" data-cycle-title="First image">
+                <img src="images/demo/img-2.jpg" alt="Slider image 2" data-cycle-title="Second image">
+                <img src="images/demo/img-3.jpg" alt="Slider image 3" data-cycle-title="Third image">
+                <img src="images/demo/img-4.jpg" alt="Slider image 4" data-cycle-title="Fourth image">
+            </div>
+        </div>
+    </div>
+    <!-- end cycle-slideshow -->
+
+
+	<!-- Add Bower Components -->
+	<script src="bower_components//jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/superfish/dist/js/superfish.min.js"></script>
+	<script src="bower_components/superfish/dist/js/hoverIntent.js"></script>
+	<script src="bower_components/jquery-cycle2/build/jquery.cycle2.min.js"></script>
+	<script src="js/prism.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>

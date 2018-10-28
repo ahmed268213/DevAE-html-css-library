@@ -1,0 +1,11 @@
+{
+    "directory": "app/components/",
+    "name": "DevAE pattern library",
+    "version": "1.0.0",
+    "dependencies": {
+        
+        "superfish": "latest",
+        "animate.css": "latest",
+        "jquery-cycle2": "latest"
+    }
+  }
