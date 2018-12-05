@@ -1,0 +1,106 @@
+@import '../settings/setting';
+
+
+button,
+.btn,
+a.btn {
+    background-color: $btn-default-bg;
+    border-radius: $btn-roundness--sm;
+    border: 0;
+
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+
+    display: inline-block;
+    padding: .75em 1.5em;
+    transition: all .2s;
+
+    &:hover {
+        background-color: $text-color;
+
+        color: $btn-default-bg;
+    }
+
+    &:active {
+        background-color: lighten($text-color, 10%);
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.btn-primary {
+    @extend .btn;
+
+    background-color: $btn-primary-bg;
+
+    color: $btn-primary-text-color;
+
+    &:hover {
+        background-color: $btn-primary-text-color;
+
+        color: $btn-primary-bg;
+    }
+
+}
+
+.btn-sucsses {
+    @extend .btn;
+    background-color: $btn-sucsses-bg;
+    color: $btn-sucsses-text-color;
+
+    &:hover {
+        background-color: $btn-sucsses-text-color;
+
+        color: $btn-sucsses-bg;
+    }
+
+}
+
+.btn-white {
+    @extend .btn;
+    color: $text-color;
+    background: transparent;
+    border-bottom: 1px solid $text-color;
+    padding: .3rem .5rem;
+    transition: all .2s;
+    border-radius: 0;
+
+    &:hover {
+        color: $hr-color;
+
+        background: $text-color;
+    }
+
+}
+
+.btn-callopse {
+    @extend .btn;
+    background-color: $btn-sucsses-bg;
+    color: $btn-sucsses-text-color;
+    border-radius: 30%;
+    border: 0;
+    padding: .4em .7em;
+
+    &:hover {
+        background-color: $btn-sucsses-text-color;
+
+        color: $btn-sucsses-bg;
+    }
+}
+
+//sizes
+.btn-small {
+    @extend .btn;
+
+    font-size: $btn-small-font-size;
+}
+
+.btn-large {
+    @extend .btn;
+
+    font-size: $btn-large-font-size;
+    font-weight: bold;
+}

@@ -1,0 +1,137 @@
+/*************************** START of FLEX-BOX ***************************/
+
+
+.flex-p {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+   
+    // for dirction
+    &--dc {
+        flex-direction: column;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        &>* {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        &>:first-child {
+            margin-top: $m--md;
+        }
+        &>* {
+            margin-bottom: $m--sm;
+
+        }
+    }
+
+    // justfy contant
+    &--ja {
+        justify-content: space-around;
+    }
+
+    &--jb {
+        justify-content: space-between;
+    }
+
+    &--je {
+        justify-content: flex-end;
+    }
+
+    &--jc {
+        justify-content: center;
+        
+    }
+
+
+    &>*:not(:first-child) {
+        margin-left: $flex-gutter;
+
+    }
+}
+
+@for $i from 1 to 13 {
+    .flex__i-g--#{$i} {
+        flex-grow: #{$i};
+    }
+}
+
+.flex__i {
+   
+    // INTIAL FLEX
+    &--i {
+        flex: initial;
+    }
+
+    &--a {
+        flex: auto;
+    }
+
+    &--n {
+        flex: none;
+    }
+
+    &--ih {
+        flex: inherit;
+    }
+
+    //self alignment
+    &--as {
+        align-self: flex-start;
+    }
+
+    &--ae {
+        align-self: flex-end;
+    }
+
+    &--ast {
+        align-self: stretch;
+    }
+
+    &--ac {
+        align-self: center;
+    }
+
+    &--ab {
+        align-self: baseline;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .flex-p {
+
+
+        &>*:not(:first-child) {
+            margin-left: $flex-gutter /2;
+        }
+
+
+    }
+}
+
+@media (max-width: 768px) {
+    .flex-p {
+        flex-direction: column;
+
+        &>*:not(:first-child) {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &>* {
+            margin-bottom: $m--sm;
+
+        }
+
+        &>:first-child {
+            margin-top: $m--md;
+        }
+    }
+}
+
+/*************************** END of FLEX-BOX ***************************/

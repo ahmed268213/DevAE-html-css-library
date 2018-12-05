@@ -1,0 +1,73 @@
+/*************************** START SITTINGS ************************/
+$column-count:12;
+// Margins
+$m--sm: 0.5rem;
+$m--md: 1.5rem;
+$m--lg: 3rem;
+
+// Gutters
+$flex-gutter: $m--md;
+$gutter: $m--md;
+
+// Typography
+$text-color: #333;
+$link-color: #0f82bd;
+$hr-color: #ccc;
+
+$muted-text-color: lighten($text-color, 30%);
+
+$base-line:1.5rem;
+
+$body-font-family: Helvetica,
+"Helvetica Neue",
+Arial,
+sans-serif;
+
+$h1-size: 3.998em;
+$h2-size: 2.827em;
+$h3-size: 1.999em;
+$h4-size: 1.414em;
+$h5-size: 1em;
+$h6-size: .707em;
+
+
+// Button Variables.
+$btn-roundness--sm: 3px;
+$btn-roundness--md: 6px;
+
+$btn-small-font-size: .75em;
+$btn-mediam-font-size: 1.2em;
+$btn-large-font-size: 2em;
+
+$btn-default-bg: #dde2d4;
+$btn-default-text-color: #333;
+
+$btn-primary-bg: #0f82bd;
+$btn-primary-text-color: lighten(#0f82bd, 80%);
+
+$btn-sucsses-bg: #22ac00;
+$btn-sucsses-text-color: lighten($btn-sucsses-bg, 80%);
+
+
+// Form Variables.
+$field-border-color: rgb(143, 143, 143);
+$field-error-color: red;
+$field-required-color: red;
+
+// Icon Variables.
+$icon-roundness: 3px;
+$icon-border-color: #ccc;
+
+// Feedback Variables.
+$information-color: #439ccf;
+$error-color: #e72915;
+$warning-color: #d35400;
+$success-color: #74a730;
+
+// navigation
+$nav-border-color:#0f82bd;
+$nav-text-white:rgb(240, 240, 240);
+$nav-background-black:#333;
+$nav-btn-background-White: darken($nav-text-white,2%)
+
+/************************* END SITTINGS *********************/

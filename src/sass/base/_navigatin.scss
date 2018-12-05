@@ -1,0 +1,68 @@
+@import '../settings/setting';
+
+nav {
+
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    line-height: 1.2rem;
+    position: fixed;
+    z-index: 999;
+    background-color: $nav-background-black;
+
+    padding: .5rem;
+    border-bottom: 4px solid $nav-border-color;
+
+    .nav-brand {
+        margin-right: auto;
+        margin-left: $m--sm;
+        text-decoration: none;
+        width: 60px;
+        height: auto;
+    }
+
+    .flex-p {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    // type
+    color: $nav-text-white;
+
+
+    //buttens
+
+    a:not(:first-child),
+    a:visited {
+        color: $nav-text-white;
+        text-decoration: none;
+        padding-bottom: .2rem;
+        border-bottom: 1px solid $nav-btn-background-White;
+        padding: .6rem .5rem;
+        transition: all .2s;
+
+        &:hover {
+            color: $nav-background-black;
+            background-color: $nav-btn-background-White;
+        }
+    }
+}
+
+// media
+@media (max-width:1024px) {
+    nav {}
+}
+
+@media (max-width: 768px) {
+    nav {
+        .flex-p {
+            .nav-brand {
+                margin: 0 auto;
+                width: 100px;
+                align-self: center;
+            }
+        }
+    }
+}
