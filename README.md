@@ -1,6 +1,6 @@
 # Dev**AE**  library
 
-​	this will description my new library
+​	description for DevAE CSS library
 
 -----
 
